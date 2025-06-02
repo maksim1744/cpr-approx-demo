@@ -58,7 +58,7 @@ To do that
 - It only copies `*.out` back, so if you need solution stderr from `*.log`, you will need to ssh yourself
 
 ### Config
-```json
+```jsonc
 {
     "optimize": "min",  // "min" or "max"
     "result_func": "sum",  // "sum" or "avg"
@@ -77,8 +77,8 @@ To do that
             "tests/*.in"
         ],
         // "prerun": [  // additional commands to run on remote host after copying files
-                        // for examples if your OS is different from remote one,
-                        // sending the binary might not work, then you need to compile it from source:
+                        // for example if your OS is too different from the remote one,
+                        // sending the binary might not work, then you need to copy main.cpp and then compile it
         //     ["g++", "-O2", "main.cpp", "-o", "main"]
         // ],
         "threads": 96
