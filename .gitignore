@@ -1,0 +1,11 @@
+main
+scorer
+gen
+archive.zip
+tests/*.out
+tests/*.ans
+tests/*.err
+tests/*.tmp
+tests/*.log
+compile_flags.txt
+archive.zip

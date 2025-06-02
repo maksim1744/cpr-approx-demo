@@ -1,0 +1,18 @@
+{
+    "optimize": "min",
+    "result_func": "sum",
+    "tests": 5,
+    "skip_tests": [2],
+    "threads": 8,
+    "precision": 3,
+    "finalize": ["python3", "finalize.py"],
+    "remote": {
+        "local_port": 5678,
+        "workdir": "/home/maksim/test",
+        "copy": [
+            "main",
+            "tests/*.in"
+        ],
+        "threads": 96
+    }
+}
