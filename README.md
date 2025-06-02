@@ -1,5 +1,7 @@
 # `cpr approx` demo
 
+https://github.com/user-attachments/assets/1e4fb0a0-27ff-4c1b-b6fc-9dcad7363855
+
 Demo for [`cpr approx`](https://github.com/maksim1744/cpr) and [`remote-runner-server`](https://github.com/maksim1744/remote-runner-server). The repo contains an example of an optimization problem (just TSP in this case), where you are given 5 tests with some points on a plane and you need to visit all of them minimizing total distance.
 
 ### Setup
